@@ -5,11 +5,19 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
+<<<<<<< HEAD
   <artifactId>sample-webapps</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>sample-webapps Maven Webapp</name>
+=======
+  <artifactId>sample-webapp</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+
+  <name>sample-webapp Maven Webapp</name>
+>>>>>>> 32bd49d ("This is First Commit")
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -29,7 +37,11 @@
   </dependencies>
 
   <build>
+<<<<<<< HEAD
     <finalName>sample-webapps</finalName>
+=======
+    <finalName>sample-webapp</finalName>
+>>>>>>> 32bd49d ("This is First Commit")
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

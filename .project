@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>sample-webapps</name>
+<<<<<<< HEAD
+	<name>sample-webapp</name>
+=======
+	<name>sample-webapp</name>
+>>>>>>> 32bd49d ("This is First Commit")
 	<comment></comment>
 	<projects>
 	</projects>
