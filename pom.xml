@@ -2,23 +2,15 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-<<<<<<< HEAD
   <artifactId>sample-webapps</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>sample-webapps Maven Webapp</name>
-=======
-  <artifactId>sample-webapp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
-
-  <name>sample-webapp Maven Webapp</name>
->>>>>>> 32bd49d ("This is First Commit")
-  <!-- FIXME change it to the project's website -->
+  <name>sample-webapp Maven Webapp</name>  
   <url>http://www.example.com</url>
 
   <properties>
@@ -37,18 +29,14 @@
   </dependencies>
 
   <build>
-<<<<<<< HEAD
     <finalName>sample-webapps</finalName>
-=======
-    <finalName>sample-webapp</finalName>
->>>>>>> 32bd49d ("This is First Commit")
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <pluginManagement>
+      <!-- Lock down plugins versions to avoid using Maven defaults -->
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.4.0</version>
         </plugin>
-        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.3.1</version>
